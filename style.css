@@ -1,20 +1,24 @@
 header {
   position: relative;
   z-index: 10;
+  padding-top: 20px;
 }
 
 .logo {
-  position: relative;
-  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 50px;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
   header {
-    padding-top: 80px;
+    padding-top: 20px;
   }
 
 .logo {
-  max-width: 100%;
-  heigth: auto;
+  heigth: 40px;
 }
 }
