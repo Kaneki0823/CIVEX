@@ -4,12 +4,13 @@ header {
   padding-top: 20px;
 }
 
-.logo {
+header .logo {
   position: absolute;
   top: 0;
   left: 0;
   width: auto;
   height: 50px;
+  width: auto;
   max-width: 100%;
 }
 
