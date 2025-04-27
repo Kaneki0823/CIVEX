@@ -1,0 +1,20 @@
+header {
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  position: relative;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-top: 80px;
+  }
+
+.logo {
+  max-width: 100%;
+  heigth: auto;
+}
+}
